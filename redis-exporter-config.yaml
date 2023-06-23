@@ -1,0 +1,6 @@
+redisAddress: redis://redis.redis.svc.cluster.local:6379
+auth:
+  enabled: true
+  secret:
+     name: redis-exporter-secret
+     key: redis-pwd
